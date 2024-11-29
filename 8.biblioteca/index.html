@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>LIBRERIA</h1>
+        <label for="tipo">Tipo:
+            <select name="tipo" id="tipo">
+                <option value="LibroDigital">Libro digital</option>
+                <option value="LibroFisico">Libro fisico</option>
+            </select>
+        </label>
+        <label for="titulo">Titulo: 
+            <input type="text" id="titulo">
+        </label>
+        <br><br>
+        <label for="autor">Autor: 
+            <input type="text" id="autor">
+        </label>
+        <label for="paginas">Numero de paginas: 
+            <input type="number" id="paginas">
+        </label>
+        <button id="guardar">Guardar</button>
+    </div>
+    <div>
+        <h2>Buscar libros</h2>
+        <label for="autorBuscar">Autor:
+            <input type="text" id="autorBuscar">
+        </label>
+        <button id="buscar">Buscar</button>
+        <ul id="librosAutor"></ul>
+    </div>
+    <div>
+        <h2>Listar libros</h2>
+        <button id="mostrar">Mostrar</button>
+        <ul id="listado"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

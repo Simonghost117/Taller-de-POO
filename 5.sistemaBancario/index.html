@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>CUENTA BANCARIA</h1>
+    <label for="">Tipo de cuenta: 
+    <select id="tipoCuenta">
+        <option value="CuentaAhorros">Cuenta de Ahorros</option>
+        <option value="CuentaCorriente">Cuenta Corriente</option>
+    </select>
+    </label>
+<br><br>
+    <label for="numeroCuenta">Numero de cuenta: 
+        <input type="text" id="numeroCuenta">
+    </label>
+    <label for="saldo">Saldo: 
+        <input type="number" id="saldo">
+    </label>
+    <button id="guardar">GUARDAR</button>
+    <br><br>
+    <label for="retirar">Cantidad a retirar:
+        <input type="number" id="cantidadRetiro">
+    </label>
+    <button id="retirar">Retirar</button>
+    <br><br>
+    <label for="depositar">Cantidad a depositar: 
+        <input type="number" id="cantidadDeposito">
+    </label>
+    <button id="depositar">Depositar</button>
+    <br><br>
+    
+    <p id="informacion"></p>
+    </div>
+    <div>
+        <h2>Registro</h2>
+        <ul id="listadoCuentas"></ul>
+        <button id="mostrar">Mostrar</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

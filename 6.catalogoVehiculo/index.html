@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>CATALOGO DE VEHICULOS</h1>
+        <label for="tipo">Tipo: 
+        <select name="tipo" id="tipo"> 
+            <option value="Moto">Moto</option>
+            <option value="Auto">Auto</option>
+        </select>
+        </label>
+        <label for="marca">Marca:
+            <input type="text" id="marca">
+        </label>
+        <br><br>
+        <label for="modelo">Modelo: 
+            <input type="text" id="modelo">
+        </label>
+        <label for="año">Año: 
+            <input type="number" id="año">
+        </label>
+        <button id="guardar">GUARDAR</button>
+    </div>
+    <div>
+        <h2>Catalogo: </h2>
+        <button id="mostrarMotos">Mostrar motos</button>
+        <button id="mostrarAutos">Mostrar autos</button>
+        <ul id="listado"></ul>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

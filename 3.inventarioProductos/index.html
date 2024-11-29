@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Inventario</h1>
+        <label for="check"><span id="checkText" >Producto</span></label>
+        <input type="checkbox" name="check" id="check" style="display: none;"><br><br>
+        <label for="productName">Ingresa el nombre del producto: </label><br>
+        <input type="text" id="productName" required><br>
+        <label for="precioProducto">Ingresa el precio del producto: </label><br>
+        <input type="text" id="precioProducto" required><br>
+        <label for="stock">Ingresa la cantidad: </label><br>
+        <input type="text" id="stock" required><br>
+        <label for="marca" >Ingresa la marca: </label><br>
+        <input type="text" id="marca"  disabled required><br><br>
+        <button id="guardarProducto">Guardar</button>
+        <button id="listarBajoStock">Listar productos en bajo stock</button>
+
+        <ul id="listaBajoStock"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

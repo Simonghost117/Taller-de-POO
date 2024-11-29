@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sistema de cursos </h1>
+    <label for="check"><span id="checkText"><h2>Curso Presencial</h2></span></label>
+    <input type="checkbox" name="check" id="check" style="display: none;"><br><br>
+    <button  onclick="agregarEstudiantes()">Agregar estudiantes</button>
+    <button id="accionAgregarNota" onclick=" agregrarNotas()">Agregar nota</button>
+    <button id="accionListar">Listar estudiantes</button><br><br><br>
+    <div id="accion"> 
+
+        <label for='nombreEstudiante'>Ingresa el nombre del estudiante</label><br>
+        <input type='text' id='nombreEstudiante'><br>
+        <label for='edadEstudiante'>Ingresa la edad del estudiante</label><br>
+        <input type='text' id='edadEstudiante'><br><br>
+        
+        <button onclick="guardarEstudiante()">Guardar estudiante</button>
+        
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

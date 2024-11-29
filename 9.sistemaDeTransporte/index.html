@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>TRANSPORTE</h1>
+        <label for="tipo">Tipo: 
+            <select id="tipo">
+                <option value="Autobus">Autobus</option>
+                <option value="Bicicleta">Bicicleta</option>
+            </select>
+        </label>
+        <label for="capacidad">Capacidad: 
+            <input type="text" id="capacidad">
+        </label>
+        <label for="tipoCombustible">Tipo de combustible: 
+            <input type="text" id="tipoCombustible">
+        </label>
+        <button id="guardar">GUARDAR</button>
+    </div>
+    <div>
+        <h2>Listado</h2>
+        <button id="mostrar">Mostrar</button>
+        <ul id="listado"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

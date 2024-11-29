@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Sueldo empleado</h1>
+        <label for="check"><span id="checkText" >Medio Tiempo</span></label>
+        <input type="checkbox" name="check" id="check" style="display: none;"><br><br>
+        <label for="nombreEmpleado">Ingresa el nombre del empleado: </label><br>
+        <input type="text" id="nombreEmpleado" required><br>
+        <label for="sueldoHora">Ingresa el sueldo por hora: </label><br>
+        <input type="text" id="sueldoHora" required><br>
+        <button id="guardarEmpleado">Guardar</button>
+        <button id="listarEmpleado"><span id="tipoEmpleado">LIstar empleados de medio tiempo</span></button>
+
+        <ul id="medioTiempo"></ul>
+        <ul id="tiempoCompleto"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

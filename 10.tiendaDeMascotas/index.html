@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>TIENDA DE MASCOTAS</h1>
+        <label for="tipo">Tipo:
+        <select name="tipo" id="tipo">
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+        </select>
+        </label>
+        <label for="nombre">Nombre: 
+            <input type="text" id="nombre">
+        </label>
+        <label for="raza">Raza: 
+            <input type="text" id="raza">
+        </label>
+        <button id="guardar">GUARDAR</button>
+    </div>
+    <div>
+        <h2>Listado de mascotas</h2>
+        <button id="mostrar">Mostrar</button>
+        <ul id="listado"></ul>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
